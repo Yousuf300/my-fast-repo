@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vw;
+
+  font-family: "Quicksand", sans-serif;
+}
+/*container ar kaz*/
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+/*
+nav bar design start
+*/
+nav {
+  width: 100%;
+  height: 100px;
+
+  background-color: #030303;
+  color: #ffffff;
+}
+.nav-container {
+  display: flex;
+}
+.nav-item-container {
+  margin-left: auto;
+  display: flex;
+}
+.brand {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.nav-item {
+  margin-left: 24px;
+  margin-top: 15px;
+}
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active,
+.nav-item a:hover {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*profile card container*/
+.profile-card-container {
+  width: 100%;
+  height: 470px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 25);
+  border-radius: 10px;
+  display: flex;
+}
+.image-pic-container {
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-square-container {
+  width: 370px;
+  height: 370px;
+  border: 5px solid #151d15;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.image-circle-containe {
+  width: 305px;
+  height: 305px;
+  border: 5px solid #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profil-info-container {
+  width: 930px;
+  margin-top: 60px;
+  background-color: purple;
+}
